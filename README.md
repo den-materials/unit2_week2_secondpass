@@ -53,3 +53,7 @@ If you are unsure of whether the variable you are currently printing is an objec
 ## From the top, one more time!
 
 ![](fullStack.jpg)
+
+## Starting Project 2
+
+If you are feeling nervous about where to start with Project 2, [this activity](full_stack_ajax.md) is a helpful skeleton to follow.  It does not provide code, but does walk through all the steps to create a simple full stack app.
