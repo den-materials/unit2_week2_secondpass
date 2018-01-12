@@ -1,10 +1,20 @@
 # Unit 2 Week 2 Second Pass
 
-## Gulp
+## Where to look for references...
 
-Gulp is a useful tool for automating tasks in order to increase productivity. Earlier, we used it for *transpiling* ES6 to ES5 and Sass into CSS.  It can also be used to minify code, and much more.
+We covered a lot in Unit 2.  It may be hard to remember where you've seen something that may help you get through your current task in Project 2, but this guide may help you home in on that code that's just outside your train of thought.
 
-Let's take a look at how this works in Sensus...
+1. If you're looking for an example of basically anything, you want to look at [Express Personal API](https://github.com/den-materials/express-personal-api), [Mongoose Books App](https://github.com/den-materials/mongoose-books-app) or [Tunely](https://github.com/den-materials/tunely/).  They are the closest thing we've built to your full-stack project.
+
+2. If you're having trouble with the beginning of your server setup, you should look at the [Express Lesson](https://github.com/den-materials/express).
+
+3. For help with routes, you should check out the [Express Routing Lesson](https://github.com/den-materials/express-routing-lab) or [Express Personal API](https://github.com/den-materials/express-personal-api).
+
+4. If you're having trouble with Mongo or Mongoose, you should look at the [Mongoose Books App](https://github.com/den-materials/mongoose-books-app).
+
+5. If you're having trouble with your API, you should look at [Books AJAX Lesson](https://github.com/den-materials/js-ajax-lesson) or [Books AJAX Lab](https://github.com/den-materials/js-ajax-lab) for front-end requests, and [Requesting with Node/Favorite Movies](https://github.com/den-materials/requesting-with-node) for back-end requests.
+
+6. Remember: if in doubt, `console.log()` all the things, and keep asking yourself: "What should I be seeing?" and "What am I seeing now?"
 
 ## Controllers vs Routes
 
