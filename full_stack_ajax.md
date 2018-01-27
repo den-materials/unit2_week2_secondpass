@@ -26,7 +26,7 @@ Throughout this lab, we will hit a lot of the pieces we introduced earlier in th
 There can be quite a bit of variety in your folder setup and it may change throughout your project so don't look at this as the only 'way'. We are going to start this way as a review of what will go where before we even start:
 
 - Create a directory - name it what you want - this is where everythings going to go. I will call it root
-- cd into groot and run `npm init -y` inside.
+- cd into root and run `npm init -y` inside.
 - now lets make our structure. Create directories called `config controllers models public views`
 - our public directory has two subdirectories `scripts styles`
 - our views directory has one subdirectory `partials`
@@ -47,7 +47,7 @@ add some files that we know we are going to use:
 
 
 
-### Step 2: Hello Server!
+### Step 2: Get a Hello Server!
 
 In order to set up our server, we need to do a few things all of the following steps take place inside of server.js:
 
