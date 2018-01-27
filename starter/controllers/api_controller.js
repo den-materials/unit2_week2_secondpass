@@ -1,5 +1,9 @@
+const Practice = require('../models/practice')
 const index = (req,res) => {
-    res.json({test:'this is a test'})
+    Practice.find().then(practice =>{
+        console.log(practice)
+        res.json({practice: practice})
+    })
 }
 
 

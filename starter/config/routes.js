@@ -5,6 +5,6 @@ const   router = require('express').Router(),
 
 router.get('/', view.index)
 
-router.get('/api', api.index)
+router.get('/api/practice', api.index)
 
 module.exports = router;

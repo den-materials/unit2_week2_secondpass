@@ -1,7 +1,10 @@
 const   express = require('express'), 
         app = express(), 
         PORT = process.env.PORT || 3000,
-        router = require('./config/routes')
+        router = require('./config/routes'),
+        mongoose = require('mongoose')
+
+mongoose.connect('mongodb://localhost/idgafos'); 
 
 
 app.set('views', './views');
