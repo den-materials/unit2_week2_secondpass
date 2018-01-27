@@ -91,30 +91,26 @@ In this step we will configure our app to display ejs files in server.js file, a
 
 ### Step 5: Build out a View Route Part 1
 
-Guess where we start --- server.js! 
+Guess where we start --- `server.js!`
 - move the `app.get` route out of our `server.js` file and into our `routes.js` file
-- now lets configure the routes.js file. We need to require express...specifically the express' `Router`. Save that to a variable named router.
-- adjust the route we brought over from server.js..... you need to make one change so that it will work
+- now configure the `routes.js` file. Require express...specifically the express' `Router()`. Save that to a variable named router.
 - now lets `export` our router from the routes.js file
 - move back to server.js and create variable named `router` that requires the routes.js file
 - use express to tell our app what to do with routing requests. put this right before we start our server: `app.use(router)`
 
 ### Step 6: Build out a View Route Part 2
-we should feel pretty good when this part ends...ready.... gooooo
-- copy your route and paste it in the view_controller.js file
-now we're in view_controller.js. We don't need everything...but we can use this as a template
-- write out a function named index which takes two params, `req` & `res`. respond by rendering your index.ejs file....hint(its the same function as the route you should've copied over.....which you can now delete)
-- export an object module. 
-here we are going to make one big object that holds all of our view controls - wrap it up then send it out
-- create a key/value pair in your module.exports object that references your index method
+- copy your route callback function and paste it in the view_controller.js file. name the function index
+- export the index function.
+
 - move over to routes.js and create a variable named view that requires the view_controller.js file
-- simplify your router.get('/') route so that it uses your view controller.
+- simplify the `router.get('/')` callback so that it uses the view_controller
 
 * YAAAAASSS
 
 - nice work. Now prove to yourself that you're starting to get this shit and build a view route to render your winner.ejs
 
 ### Step 7: AJAX Requests
+
 - in index.ejs create a button element with an id of your choosing
 - In `app.js` create an event listener on that button that fires a jQuery AJAX `$.get` request to `/api`.
 - `console.log` the `response` to this query
@@ -150,12 +146,14 @@ here we are going to make one big object that holds all of our view controls - w
 - Check Developer Tools to make sure your DB name is showing up (it should have an `_id` property now)
 - Change the `html` of the `h1` to have the name you are getting from the DB (DOM Manipulation: the return)
 
+
+
+
+
+
 ### Pairs
 
 ![](team_awesome.jpg)
-
-
-
 
 First, come up to the front of the room.
 
