@@ -134,9 +134,7 @@ In this step we pull everything together. Since its the boss level there has to 
 - `require` your model in your api controller
 - Change the `index` function in your api controller to `find` all instances of your model from the DB. Then respond with that instead of the hardcoded JSON from earlier.
 - Connect to your database in your server file. This means requiring `mongoose`.
-
-- Check Developer Tools to make sure your DB name is showing up (it should have an `_id` property now)
-- Change the `html` of the `h1` to have the name you are getting from the DB (DOM Manipulation: the return)
+- when we click the button on our front end we should see our database data show up in the console.
 
 
 
