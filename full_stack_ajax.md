@@ -23,7 +23,7 @@ Throughout this lab, we will hit a lot of the pieces we introduced earlier in th
 
 ### Step 1: Initial Setup!
 
-There can be quite a bit of variety in your folder setup and it may change throughout your project so don't look at this as the 'way'. We are going to start this way as a review of what will go where before we even start:
+There can be quite a bit of variety in your folder setup and it may change throughout your project so don't look at this as the only 'way'. We are going to start this way as a review of what will go where before we even start:
 
 - Create a directory - name it what you want - this is where everythings going to go. I will call it root
 - cd into groot and run `npm init -y` inside.
@@ -31,9 +31,9 @@ There can be quite a bit of variety in your folder setup and it may change throu
 - our public directory has two subdirectories `scripts styles`
 - our views directory has one subdirectory `partials`
 
-- lets add some files that we know we are going to use:
-  - root/server.js
-  - root/seed.js
+add some files that we know we are going to use:
+  - server.js
+  - seed.js
   - config/routes.js
   - controllers/api_controller.js
   - controllers/view_controller.js
@@ -52,8 +52,8 @@ There can be quite a bit of variety in your folder setup and it may change throu
 In order to set up our server, we need to do a few things all of the following steps take place inside of server.js:
 
 - We know we are going to need a handful of packages...lets npm install them all now and then we will require them as we need them. 
-- `install` `express`, `mongoose`, `ejs` and `body-parser` with `npm`
-- require `express` 
+- install `express`, `mongoose`, `ejs` and `body-parser` with `npm`
+- now inside server.js require `express` 
 - create a variable named `app` and set it equal to `express()`
 - create a variable named `PORT` and set it equal to `process.env.PORT || 3000`
 - add the express function to connect to your PORT variable
